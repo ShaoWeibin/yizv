@@ -7,4 +7,4 @@
 4. tnpm run start
 
 ## effect
-![](1576663752469-f416ac4f-930f-4e0a-bf46-5a24766251d3.png)
+![](https://github.com/ShaoWeibin/images/blob/master/1576663752469-f416ac4f-930f-4e0a-bf46-5a24766251d3.png?raw=true)
