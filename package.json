@@ -1,0 +1,44 @@
+{
+  "name": "yizv",
+  "author": "weibin.shao",
+  "license": "ISC",
+  "version": "1.0.0",
+  "description": "git clone https://github.com/ShaoWeibin/yizv.git",
+  "main": "lib/bundle.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShaoWeibin/yizv.git"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  },
+  "keywords": [
+    "component",
+    "visualization"
+  ],
+  "scripts": {
+    "build": "webpack"
+  },
+  "files": [
+    "lib"
+  ],
+  "engines": {
+    "install-node": "6.11.1"
+  },
+  "dependencies": {
+    "react": "^16.5.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0"
+  }
+}

@@ -1,0 +1,91 @@
+// @fill-color: #141414;
+@fill-color: #111;
+
+:global {
+  svg {
+    margin: auto;
+  }
+  
+  path.arc {
+    fill: @fill-color;
+  }
+  
+  path.arc2 {
+    fill: @fill-color;
+  }
+  
+  path.arc3 {
+    fill: @fill-color;
+  }
+
+  .node {
+    fill: #D8D8D8;
+
+    text {
+      font-size: 13px;
+    }
+
+    &.active,
+    &.hover {
+      fill: #07CEED;
+
+      &.model.hover-target,
+      &.model.active-target {
+        fill: #D0021B;
+
+        circle {
+          &.active,
+          &.hover {
+            stroke: #D0021B;
+          }
+        }
+      }
+
+      circle {
+        &.active,
+        &.hover {
+          fill: none;
+          stroke: #07CEED;
+          stroke-width: 1px;
+        }
+      }
+    }
+  }
+
+  .link {
+    fill: none;
+    stroke: #333;
+    stroke-width: 1px;
+
+    &.active,
+    &.hover {
+      stroke: #07CEED;
+      stroke-width: 2px;
+    }
+  }
+
+  #tooltipContainer {
+    color: #D8D8D8;
+    font-family: simsun;
+    font-size: 14px;
+    padding: 10px;
+    position: absolute;
+    text-align: left;
+    border: 1px solid #333333;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    cursor: pointer;
+
+    h3 {
+      font-size: 14px;
+      margin: 0;
+    }
+    p {
+      font-size: 12px;
+      margin: 5px 0px;
+    }
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
