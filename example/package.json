@@ -9,9 +9,6 @@
     "type": "git",
     "url": "https://github.com/ShaoWeibin/yizv.git"
   },
-  "publishConfig": {
-    "registry": "https://github.com/ShaoWeibin/yizv.git"
-  },
   "keywords": [
     "component",
     "visualization"
